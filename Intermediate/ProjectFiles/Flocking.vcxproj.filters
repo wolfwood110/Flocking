@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Flocking.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F0C1C068-D1A7-4F29-A093-8690FF80BFC1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flocking.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FlockingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1A63438B-2A2F-4D34-BA30-1A747057A8E3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Flocking">
+      <UniqueIdentifier>{C4AC01E5-C6A8-4239-B74B-AA56573B9C91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flocking\Flocking.Build.cs">
+      <Filter>Source\Flocking</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Flocking\Flocking.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\Flocking.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Flocking\FlockingCharacter.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\FlockingCharacter.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Flocking\FlockingGameMode.cpp">
+      <Filter>Source\Flocking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flocking\FlockingGameMode.h">
+      <Filter>Source\Flocking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
